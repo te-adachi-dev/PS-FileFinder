@@ -1,4 +1,4 @@
-# ▲ここから保存してください：EnhanceSearch.ps1 ▲
+# ▲ここから保存してください▲
 
 function Maximize-Window {
     $sig = '[DllImport("user32.dll")] public static extern bool ShowWindow(int handle, int state);'
@@ -84,5 +84,4 @@ if ($results) {
 Write-Host "`nEnterキーを押して終了してください..."
 Read-Host | Out-Null
 
-# ▲ここまで保存してください：EnhanceSearch.ps1 ▲
-
+# ▲ここまで保存してください▲
